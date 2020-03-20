@@ -63,7 +63,7 @@
         android:id="@+id/lblDirecciona"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Fecha de Nacimiento" />
+        android:hint="Fecha de Nacimiento (Formato AA-MM-DD)" />
 
     <EditText
         android:id="@+id/txtFechaN"

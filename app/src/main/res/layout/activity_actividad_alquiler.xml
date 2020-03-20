@@ -31,7 +31,7 @@
         android:id="@+id/lblNombre"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Hora recogida del vehiculo" />
+        android:hint="Hora recogida del vehiculo (Formato hh:mm)" />
 
     <EditText
         android:id="@+id/txthoraRecogida"
