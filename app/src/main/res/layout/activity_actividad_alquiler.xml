@@ -14,18 +14,7 @@
         android:text="ALQUILER DE VEHICULOS"
         android:textSize="20dp" />
 
-    <TextView
-        android:id="@+id/lblIdAlumnoSW"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Nro de Registro" />
 
-    <EditText
-        android:id="@+id/txtnroRegistro"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="number" />
 
     <TextView
         android:id="@+id/lblNombre"
@@ -40,7 +29,30 @@
         android:ems="10"
         android:inputType="textPersonName"
         />
+    <TextView
+        android:id="@+id/lblIdAlumnoSW"
+        android:layout_gravity="right"
+        android:text="- ABJ Abdul Kalam"
+        android:textStyle="italic"
+        android:textSize="16sp"
+        android:visibility="invisible"
+        android:typeface="serif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Nro de Registro" />
 
+    <EditText
+        android:id="@+id/txtnroRegistro"
+        android:ems="10"
+        android:layout_gravity="right"
+        android:text="- ABJ Abdul Kalam"
+        android:textStyle="italic"
+        android:textSize="16sp"
+        android:visibility="invisible"
+        android:typeface="serif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number" />
 
     <Button
         android:id="@+id/btnregistrarAlquiler"
